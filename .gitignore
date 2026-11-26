@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.idea/
+.vscode/
+# 얼굴 사진과 추론 결과는 올리지 않는다
+samples/
+outputs/
+*.jpg
+*.jpeg
+*.png

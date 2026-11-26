@@ -1,0 +1,5 @@
+# 추론에 필요한 것만 적었다. (학습 환경: torch 2.11 + CUDA 12.8, CPU 에서도 동작)
+torch>=2.0.0
+torchvision>=0.15.0
+ultralytics==8.4.60
+Pillow>=9.0.0
