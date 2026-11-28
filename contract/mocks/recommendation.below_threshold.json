@@ -1,0 +1,28 @@
+{
+  "status": "below_threshold",
+  "params": {
+    "theta": 0.4,
+    "delta": 0.15
+  },
+  "region": "천안",
+  "type_stats": [
+    {
+      "type": "Rolling",
+      "type_ko": "롤링",
+      "count": 2,
+      "mean_prob": 0.345,
+      "selected": false
+    },
+    {
+      "type": "Boxcar",
+      "type_ko": "박스카",
+      "count": 1,
+      "mean_prob": 0.37,
+      "selected": false
+    }
+  ],
+  "groups": [],
+  "common": [],
+  "n_ambiguous_lesions": 0,
+  "disclaimer": "이 결과는 AI 모델의 참고용 분석이며 의료 진단이 아닙니다. 정확한 진단과 시술 결정은 피부과 전문의와 상담하세요."
+}

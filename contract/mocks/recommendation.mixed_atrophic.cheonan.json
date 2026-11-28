@@ -270,14 +270,83 @@
     },
     {
       "types": [
-        "Boxcar",
-        "Ice pick"
+        "Ice pick",
+        "Boxcar"
       ],
       "label": "Boxcar 또는 Ice Pick",
       "ambiguous": true,
       "count": 2,
       "mean_prob": 0.92,
       "treatments": [
+        {
+          "treatment": "tca_cross",
+          "name": "TCA CROSS",
+          "summary": "고농도 산(TCA)을 흉터 바닥에만 콕 찍어 바르고, 새 살이 차오르게 하는 시술",
+          "for_type": "Ice pick",
+          "rank": 1,
+          "evidence": "100% TCA CROSS 4회(2주 간격) 후 약 75%가 우수한 개선",
+          "refs": [
+            14
+          ],
+          "price": {
+            "region": "천안",
+            "treatment": "tca_cross",
+            "status": "ok",
+            "average": 115000,
+            "n_clinics": 4,
+            "range": [
+              90000,
+              150000
+            ],
+            "promotion_min": 69000,
+            "collected_month": "2026-11"
+          }
+        },
+        {
+          "treatment": "punch_excision",
+          "name": "펀치 절제",
+          "summary": "작은 원통형 칼로 깊은 흉터를 도려내거나 끌어올린 뒤 봉합하는 시술",
+          "for_type": "Ice pick",
+          "rank": 2,
+          "evidence": "깊어서 표면 시술로는 부족하며, 절제 후 남는 흉터가 원래보다 덜 눈에 띔",
+          "refs": [
+            3
+          ],
+          "price": {
+            "region": "천안",
+            "treatment": "punch_excision",
+            "status": "insufficient",
+            "average": null,
+            "n_clinics": 1,
+            "range": [
+              50000,
+              50000
+            ],
+            "promotion_min": null,
+            "collected_month": "2026-11"
+          }
+        },
+        {
+          "treatment": "rf",
+          "name": "고주파(RF)",
+          "summary": "피부 속에 고주파 열을 전달해 콜라겐 재생을 돕는 시술",
+          "for_type": "Ice pick",
+          "rank": 3,
+          "evidence": "프랙셔널 바이폴라 RF 4회 후 73% 양호, Ice Pick에서 반응이 더 좋음",
+          "refs": [
+            15
+          ],
+          "price": {
+            "region": "천안",
+            "treatment": "rf",
+            "status": "no_data",
+            "average": null,
+            "n_clinics": 0,
+            "range": null,
+            "promotion_min": null,
+            "collected_month": null
+          }
+        },
         {
           "treatment": "laser_resurfacing",
           "name": "레이저 리서페이싱",
@@ -304,30 +373,6 @@
           }
         },
         {
-          "treatment": "punch_excision",
-          "name": "펀치 거상·절제",
-          "summary": "작은 원통형 칼로 깊은 흉터를 도려내거나 끌어올린 뒤 봉합하는 시술",
-          "for_type": "Boxcar",
-          "rank": 2,
-          "evidence": "깊은 Boxcar에 권장되는 시술(효과 연구는 제한적)",
-          "refs": [
-            3
-          ],
-          "price": {
-            "region": "천안",
-            "treatment": "punch_excision",
-            "status": "insufficient",
-            "average": null,
-            "n_clinics": 1,
-            "range": [
-              50000,
-              50000
-            ],
-            "promotion_min": null,
-            "collected_month": "2026-11"
-          }
-        },
-        {
           "treatment": "tca_peel",
           "name": "화학적 박피(TCA)",
           "summary": "산(TCA)을 넓게 발라 피부 겉층을 벗겨 내고 재생시키는 시술",
@@ -340,51 +385,6 @@
           "price": {
             "region": "천안",
             "treatment": "tca_peel",
-            "status": "no_data",
-            "average": null,
-            "n_clinics": 0,
-            "range": null,
-            "promotion_min": null,
-            "collected_month": null
-          }
-        },
-        {
-          "treatment": "tca_cross",
-          "name": "TCA CROSS",
-          "summary": "고농도 산(TCA)을 흉터 바닥에만 콕 찍어 바르고, 새 살이 차오르게 하는 시술",
-          "for_type": "Ice pick",
-          "rank": 1,
-          "evidence": "100% TCA CROSS 4회(2주 간격) 후 약 75%가 우수한 개선",
-          "refs": [
-            14
-          ],
-          "price": {
-            "region": "천안",
-            "treatment": "tca_cross",
-            "status": "ok",
-            "average": 115000,
-            "n_clinics": 4,
-            "range": [
-              90000,
-              150000
-            ],
-            "promotion_min": 69000,
-            "collected_month": "2026-11"
-          }
-        },
-        {
-          "treatment": "rf",
-          "name": "고주파(RF)",
-          "summary": "피부 속에 고주파 열을 전달해 콜라겐 재생을 돕는 시술",
-          "for_type": "Ice pick",
-          "rank": 3,
-          "evidence": "프랙셔널 바이폴라 RF 4회 후 73% 양호, Ice Pick에서 반응이 더 좋음",
-          "refs": [
-            15
-          ],
-          "price": {
-            "region": "천안",
-            "treatment": "rf",
             "status": "no_data",
             "average": null,
             "n_clinics": 0,

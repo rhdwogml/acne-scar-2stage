@@ -1,0 +1,103 @@
+{
+  "status": "ok",
+  "params": {
+    "theta": 0.4,
+    "delta": 0.15
+  },
+  "region": "천안",
+  "type_stats": [
+    {
+      "type": "Hypertrophic/Keloid",
+      "type_ko": "비후성·켈로이드성",
+      "count": 4,
+      "mean_prob": 0.855,
+      "selected": true
+    },
+    {
+      "type": "Rolling",
+      "type_ko": "롤링",
+      "count": 1,
+      "mean_prob": 0.36,
+      "selected": false
+    }
+  ],
+  "groups": [
+    {
+      "types": [
+        "Hypertrophic/Keloid"
+      ],
+      "label": "Hypertrophic",
+      "ambiguous": false,
+      "count": 4,
+      "mean_prob": 0.855,
+      "treatments": [
+        {
+          "treatment": "steroid_injection",
+          "name": "병변 내 스테로이드 주사",
+          "summary": "솟은 흉터에 스테로이드를 직접 주사해 납작하게 만드는 시술",
+          "for_type": "Hypertrophic/Keloid",
+          "rank": 1,
+          "evidence": "비후성·켈로이드 흉터의 표준(주된) 치료",
+          "refs": [
+            3
+          ],
+          "price": {
+            "region": "천안",
+            "treatment": "steroid_injection",
+            "status": "no_data",
+            "average": null,
+            "n_clinics": 0,
+            "range": null,
+            "promotion_min": null,
+            "collected_month": null
+          }
+        },
+        {
+          "treatment": "pdl",
+          "name": "혈관 레이저(PDL)",
+          "summary": "흉터의 붉은 혈관을 줄여 솟은 흉터를 완화하는 레이저",
+          "for_type": "Hypertrophic/Keloid",
+          "rank": 2,
+          "evidence": "비후성 흉터에 효과적인 레이저 옵션",
+          "refs": [
+            3
+          ],
+          "price": {
+            "region": "천안",
+            "treatment": "pdl",
+            "status": "no_data",
+            "average": null,
+            "n_clinics": 0,
+            "range": null,
+            "promotion_min": null,
+            "collected_month": null
+          }
+        },
+        {
+          "treatment": "pdl_steroid_5fu",
+          "name": "PDL + 스테로이드 + 5-FU 병합",
+          "summary": "혈관 레이저와 두 가지 주사를 함께 써서 효과를 높이는 병합 치료",
+          "for_type": "Hypertrophic/Keloid",
+          "rank": 3,
+          "evidence": "현재 가장 유망한 병합 치료로 보고",
+          "refs": [
+            21
+          ],
+          "price": {
+            "region": "천안",
+            "treatment": "pdl_steroid_5fu",
+            "status": "no_data",
+            "average": null,
+            "n_clinics": 0,
+            "range": null,
+            "promotion_min": null,
+            "collected_month": null
+          }
+        }
+      ]
+    }
+  ],
+  "common": [],
+  "n_ambiguous_lesions": 0,
+  "disclaimer": "이 결과는 AI 모델의 참고용 분석이며 의료 진단이 아닙니다. 정확한 진단과 시술 결정은 피부과 전문의와 상담하세요."
+}

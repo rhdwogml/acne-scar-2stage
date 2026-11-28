@@ -18,7 +18,7 @@
 | `data/treatments.json` | 유형별 시술 매핑표, 표준 시술 사전, 참고문헌 (제안서 3.2.5 그대로, **실제 데이터**) | 정희재 관리 |
 | `mocks/inference.*.json` | 가짜 추론 결과 5종 | 화면, 추천 엔진 개발용 |
 | `mocks/prices.mock.json` | 가짜 가격 (병원 이름·가격 모두 지어낸 값) | 추천 엔진, 화면 개발용 |
-| `mocks/recommendation.*.json` | 가짜 추천 결과 | 화면 개발용 |
+| `mocks/recommendation.*.json` | 추천 결과 예시 6개 (실제 엔진 출력) | 화면 개발용 |
 | `mocks/explain.response.json` | 가짜 쉬운 설명 응답 | 화면 개발용 |
 
 가짜 추론 결과 5종:
@@ -42,11 +42,8 @@
 **정희재 (추천 엔진, 가격, Gemini)**
 - 함수 모양: `recommend(result: InferenceResult, region: Region, opts?) => Recommendation`
 - 지역 태그를 누르면 화면이 이 함수를 다시 부릅니다. 그러니 빠르고 순수한 함수(같은 입력 → 같은 출력)로 만듭니다.
-- 아직 정해야 할 것 (정하면 이 README에 적어 주세요):
-  - 모호 묶음의 `mean_prob`: 예시 파일은 "Boxcar 확률 + Ice pick 확률"의 평균으로 계산했습니다.
-  - 모호 흉터를 `type_stats`에서 원래 유형으로 세는지: 예시 파일은 원래 `class`로 셉니다.
-  - 제안서의 공통 후보 예시 중 Rolling·Boxcar의 "필러, 비박피성 레이저"는 Boxcar 우선순위 표에 없습니다. 예시 파일은 `treatments.json`의 `common`을 그대로 따랐습니다. 자동 교집합으로 바꾸면 이 둘은 빠집니다.
-- `mocks/recommendation.*.json`은 화면 개발용 예시입니다. 엔진 테스트의 정답으로 쓰려면 위 세 가지를 정한 뒤 다시 확인하세요.
+- 구현은 [`recommend/`](../recommend/README.md)에 있습니다. 제안서에 없어서 정한 해석 5가지도 거기 적어 두었습니다.
+- `mocks/recommendation.*.json`은 실제 엔진이 만든 출력입니다(`node recommend/make-mocks.ts`). 엔진 규칙을 바꾸면 이 명령으로 다시 만듭니다.
 
 **김근호·최현정 (화면)**
 - 화면은 `Recommendation`만 보고 그립니다. 흉터 박스 그리기만 `InferenceResult.lesions[].box`를 씁니다.
