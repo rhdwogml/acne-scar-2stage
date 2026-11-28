@@ -1,0 +1,258 @@
+{
+  "version": "2026-11-28",
+  "treatments": {
+    "tca_cross": {
+      "name": "TCA CROSS",
+      "summary": "고농도 산(TCA)을 흉터 바닥에만 콕 찍어 바르고, 새 살이 차오르게 하는 시술",
+      "aliases": [
+        "TCA 크로스",
+        "TCA CROSS",
+        "티씨에이 크로스",
+        "크로스"
+      ]
+    },
+    "punch_excision": {
+      "name": "펀치 절제",
+      "summary": "작은 원통형 칼로 깊은 흉터를 도려내거나 끌어올린 뒤 봉합하는 시술",
+      "aliases": [
+        "펀치 절제술",
+        "펀치 엘리베이션",
+        "펀치 거상",
+        "펀치"
+      ]
+    },
+    "rf": {
+      "name": "고주파(RF)",
+      "summary": "피부 속에 고주파 열을 전달해 콜라겐 재생을 돕는 시술",
+      "aliases": [
+        "고주파",
+        "RF",
+        "프랙셔널 RF",
+        "인트라셀",
+        "시크릿",
+        "포텐자"
+      ]
+    },
+    "subcision": {
+      "name": "서브시전",
+      "summary": "흉터 아래에서 피부를 잡아당기는 섬유 띠를 바늘로 끊어 주는 시술",
+      "aliases": [
+        "서브시젼",
+        "서브시전",
+        "서브시젼 주사",
+        "섭시전"
+      ]
+    },
+    "filler": {
+      "name": "필러",
+      "summary": "꺼진 부위에 채움 물질을 넣어 높이를 맞추는 시술",
+      "aliases": [
+        "흉터 필러",
+        "PLLA",
+        "스컬트라",
+        "쥬베룩",
+        "PMMA"
+      ]
+    },
+    "nonablative_laser": {
+      "name": "비박피성 레이저",
+      "summary": "피부 표면을 벗기지 않고 레이저로 피부 속 재생을 유도하는 시술",
+      "aliases": [
+        "비박피성 프랙셔널 레이저",
+        "프락셀",
+        "1540nm",
+        "1550nm"
+      ]
+    },
+    "laser_resurfacing": {
+      "name": "레이저 리서페이싱",
+      "summary": "레이저로 피부를 미세하게 깎고 재생시켜 표면을 고르게 만드는 시술",
+      "aliases": [
+        "프랙셔널 CO2",
+        "CO2 레이저",
+        "이산화탄소 레이저",
+        "리서페이싱",
+        "어븀 레이저"
+      ]
+    },
+    "tca_peel": {
+      "name": "화학적 박피(TCA)",
+      "summary": "산(TCA)을 넓게 발라 피부 겉층을 벗겨 내고 재생시키는 시술",
+      "aliases": [
+        "TCA 박피",
+        "화학 박피",
+        "필링"
+      ]
+    },
+    "steroid_injection": {
+      "name": "병변 내 스테로이드 주사",
+      "summary": "솟은 흉터에 스테로이드를 직접 주사해 납작하게 만드는 시술",
+      "aliases": [
+        "흉터 주사",
+        "켈로이드 주사",
+        "트리암시놀론 주사",
+        "스테로이드 주사"
+      ]
+    },
+    "pdl": {
+      "name": "혈관 레이저(PDL)",
+      "summary": "흉터의 붉은 혈관을 줄여 솟은 흉터를 완화하는 레이저",
+      "aliases": [
+        "PDL",
+        "브이빔",
+        "V-beam",
+        "혈관 레이저"
+      ]
+    },
+    "pdl_steroid_5fu": {
+      "name": "PDL + 스테로이드 + 5-FU 병합",
+      "summary": "혈관 레이저와 두 가지 주사를 함께 써서 효과를 높이는 병합 치료",
+      "aliases": [
+        "병합 치료",
+        "5-FU 병합"
+      ]
+    }
+  },
+  "by_type": {
+    "Ice pick": [
+      {
+        "rank": 1,
+        "treatment": "tca_cross",
+        "evidence": "100% TCA CROSS 4회(2주 간격) 후 약 75%가 우수한 개선",
+        "refs": [
+          14
+        ]
+      },
+      {
+        "rank": 2,
+        "treatment": "punch_excision",
+        "evidence": "깊어서 표면 시술로는 부족하며, 절제 후 남는 흉터가 원래보다 덜 눈에 띔",
+        "refs": [
+          3
+        ]
+      },
+      {
+        "rank": 3,
+        "treatment": "rf",
+        "evidence": "프랙셔널 바이폴라 RF 4회 후 73% 양호, Ice Pick에서 반응이 더 좋음",
+        "refs": [
+          15
+        ]
+      }
+    ],
+    "Rolling": [
+      {
+        "rank": 1,
+        "treatment": "subcision",
+        "evidence": "중등도 이상 Rolling 흉터의 53%가 경도로 개선",
+        "refs": [
+          16
+        ]
+      },
+      {
+        "rank": 2,
+        "treatment": "filler",
+        "evidence": "PLLA 3~4회 후 54.4% 우수, PMMA 1회 주입 시 65% 개선(대조군 33%)",
+        "refs": [
+          17,
+          18
+        ]
+      },
+      {
+        "rank": 3,
+        "treatment": "nonablative_laser",
+        "evidence": "1,540nm 비박피 프랙셔널 레이저 개선율 43.1%",
+        "refs": [
+          4
+        ]
+      }
+    ],
+    "Boxcar": [
+      {
+        "rank": 1,
+        "treatment": "laser_resurfacing",
+        "evidence": "비박피 프랙셔널 레이저 개선율 52.9%(유형 중 최고), CO2 레이저 75% 개선",
+        "refs": [
+          4,
+          19
+        ]
+      },
+      {
+        "rank": 2,
+        "treatment": "punch_excision",
+        "label": "펀치 거상·절제",
+        "evidence": "깊은 Boxcar에 권장되는 시술(효과 연구는 제한적)",
+        "refs": [
+          3
+        ]
+      },
+      {
+        "rank": 3,
+        "treatment": "tca_peel",
+        "evidence": "치료가 어려운 Boxcar에 TCA 박피 활용",
+        "refs": [
+          20
+        ]
+      }
+    ],
+    "Hypertrophic/Keloid": [
+      {
+        "rank": 1,
+        "treatment": "steroid_injection",
+        "evidence": "비후성·켈로이드 흉터의 표준(주된) 치료",
+        "refs": [
+          3
+        ]
+      },
+      {
+        "rank": 2,
+        "treatment": "pdl",
+        "evidence": "비후성 흉터에 효과적인 레이저 옵션",
+        "refs": [
+          3
+        ]
+      },
+      {
+        "rank": 3,
+        "treatment": "pdl_steroid_5fu",
+        "evidence": "현재 가장 유망한 병합 치료로 보고",
+        "refs": [
+          21
+        ]
+      }
+    ]
+  },
+  "common": [
+    {
+      "types": [
+        "Ice pick",
+        "Boxcar"
+      ],
+      "treatments": [
+        "punch_excision"
+      ]
+    },
+    {
+      "types": [
+        "Rolling",
+        "Boxcar"
+      ],
+      "treatments": [
+        "filler",
+        "nonablative_laser"
+      ]
+    }
+  ],
+  "references": {
+    "3": "Jfri A, et al. (2022). Acne Scars: An Update on Management. Skin Therapy Letter 27(6).",
+    "4": "Sardana K, et al. (2014). Dermatologic Surgery 40(3):288–300.",
+    "14": "Khunger N, et al. (2011). Journal of Cosmetic Dermatology 10(1):51–57.",
+    "15": "Ramesh M, et al. (2010). Journal of Cutaneous and Aesthetic Surgery 3(2):97–101.",
+    "16": "Al-Dhalimi MA, Arnoos AA. (2012). Journal of Cosmetic Dermatology 11(2):144–150.",
+    "17": "Sapra S, et al. (2015). Dermatologic Surgery 41(5):587–594.",
+    "18": "Karnik J, et al. (2014). JAAD 71(1):77–83.",
+    "19": "Walia S, Alster TS. (1999). Dermatologic Surgery 25(12):926–930.",
+    "20": "Agarwal N, et al. (2015). Dermatologic Surgery 41(5):597–604.",
+    "21": "Asilian A, et al. (2006). Dermatologic Surgery 32(7):907–915."
+  }
+}

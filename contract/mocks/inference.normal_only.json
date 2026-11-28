@@ -1,0 +1,60 @@
+{
+  "image_size": [
+    800,
+    600
+  ],
+  "conf_threshold": 0.25,
+  "stage2_model": "vit_cbam",
+  "lesions": [
+    {
+      "box": [
+        128,
+        527,
+        161,
+        556
+      ],
+      "det_conf": 0.5029,
+      "det_class": "Normal",
+      "class": "Normal",
+      "class_ko": "정상 피부",
+      "prob": 0.67,
+      "probs": {
+        "Boxcar": 0.0115,
+        "Ice pick": 0.0993,
+        "Rolling": 0.0888,
+        "Hypertrophic/Keloid": 0.1304,
+        "Normal": 0.67
+      },
+      "atrophic_prob": 0.1996
+    },
+    {
+      "box": [
+        407,
+        408,
+        433,
+        431
+      ],
+      "det_conf": 0.5156,
+      "det_class": "Normal",
+      "class": "Normal",
+      "class_ko": "정상 피부",
+      "prob": 0.58,
+      "probs": {
+        "Boxcar": 0.1186,
+        "Ice pick": 0.129,
+        "Rolling": 0.094,
+        "Hypertrophic/Keloid": 0.0784,
+        "Normal": 0.58
+      },
+      "atrophic_prob": 0.3416
+    }
+  ],
+  "summary": {
+    "n_lesions": 2,
+    "counts": {
+      "Normal": 2
+    },
+    "n_atrophic": 0,
+    "mean_atrophic_prob": 0.0
+  }
+}

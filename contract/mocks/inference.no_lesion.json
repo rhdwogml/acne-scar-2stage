@@ -1,0 +1,15 @@
+{
+  "image_size": [
+    1024,
+    768
+  ],
+  "conf_threshold": 0.25,
+  "stage2_model": "vit_cbam",
+  "lesions": [],
+  "summary": {
+    "n_lesions": 0,
+    "counts": {},
+    "n_atrophic": 0,
+    "mean_atrophic_prob": 0.0
+  }
+}

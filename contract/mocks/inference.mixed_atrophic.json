@@ -1,0 +1,251 @@
+{
+  "image_size": [
+    1280,
+    960
+  ],
+  "conf_threshold": 0.25,
+  "stage2_model": "vit_cbam",
+  "lesions": [
+    {
+      "box": [
+        148,
+        840,
+        179,
+        868
+      ],
+      "det_conf": 0.4565,
+      "det_class": "Ice pick",
+      "class": "Ice pick",
+      "class_ko": "아이스픽",
+      "prob": 0.82,
+      "probs": {
+        "Boxcar": 0.12,
+        "Ice pick": 0.82,
+        "Rolling": 0.0176,
+        "Hypertrophic/Keloid": 0.0094,
+        "Normal": 0.033
+      },
+      "atrophic_prob": 0.9576
+    },
+    {
+      "box": [
+        888,
+        428,
+        904,
+        443
+      ],
+      "det_conf": 0.3163,
+      "det_class": "Ice pick",
+      "class": "Ice pick",
+      "class_ko": "아이스픽",
+      "prob": 0.76,
+      "probs": {
+        "Boxcar": 0.15,
+        "Ice pick": 0.76,
+        "Rolling": 0.0129,
+        "Hypertrophic/Keloid": 0.0666,
+        "Normal": 0.0105
+      },
+      "atrophic_prob": 0.9229
+    },
+    {
+      "box": [
+        457,
+        645,
+        491,
+        675
+      ],
+      "det_conf": 0.5643,
+      "det_class": "Ice pick",
+      "class": "Ice pick",
+      "class_ko": "아이스픽",
+      "prob": 0.69,
+      "probs": {
+        "Boxcar": 0.24,
+        "Ice pick": 0.69,
+        "Rolling": 0.0218,
+        "Hypertrophic/Keloid": 0.0402,
+        "Normal": 0.008
+      },
+      "atrophic_prob": 0.9518
+    },
+    {
+      "box": [
+        272,
+        296,
+        299,
+        321
+      ],
+      "det_conf": 0.5457,
+      "det_class": "Ice pick",
+      "class": "Ice pick",
+      "class_ko": "아이스픽",
+      "prob": 0.71,
+      "probs": {
+        "Boxcar": 0.2,
+        "Ice pick": 0.71,
+        "Rolling": 0.0256,
+        "Hypertrophic/Keloid": 0.0588,
+        "Normal": 0.0056
+      },
+      "atrophic_prob": 0.9356
+    },
+    {
+      "box": [
+        211,
+        595,
+        243,
+        626
+      ],
+      "det_conf": 0.4599,
+      "det_class": "Boxcar",
+      "class": "Ice pick",
+      "class_ko": "아이스픽",
+      "prob": 0.52,
+      "probs": {
+        "Boxcar": 0.44,
+        "Ice pick": 0.52,
+        "Rolling": 0.0127,
+        "Hypertrophic/Keloid": 0.0124,
+        "Normal": 0.0149
+      },
+      "atrophic_prob": 0.9727
+    },
+    {
+      "box": [
+        421,
+        508,
+        456,
+        547
+      ],
+      "det_conf": 0.4881,
+      "det_class": "Ice pick",
+      "class": "Ice pick",
+      "class_ko": "아이스픽",
+      "prob": 0.47,
+      "probs": {
+        "Boxcar": 0.41,
+        "Ice pick": 0.47,
+        "Rolling": 0.0875,
+        "Hypertrophic/Keloid": 0.0165,
+        "Normal": 0.016
+      },
+      "atrophic_prob": 0.9675
+    },
+    {
+      "box": [
+        613,
+        254,
+        652,
+        291
+      ],
+      "det_conf": 0.6265,
+      "det_class": "Boxcar",
+      "class": "Boxcar",
+      "class_ko": "박스카",
+      "prob": 0.78,
+      "probs": {
+        "Boxcar": 0.78,
+        "Ice pick": 0.13,
+        "Rolling": 0.0218,
+        "Hypertrophic/Keloid": 0.0381,
+        "Normal": 0.0301
+      },
+      "atrophic_prob": 0.9318
+    },
+    {
+      "box": [
+        703,
+        746,
+        731,
+        774
+      ],
+      "det_conf": 0.5806,
+      "det_class": "Boxcar",
+      "class": "Boxcar",
+      "class_ko": "박스카",
+      "prob": 0.66,
+      "probs": {
+        "Boxcar": 0.66,
+        "Ice pick": 0.21,
+        "Rolling": 0.0256,
+        "Hypertrophic/Keloid": 0.0543,
+        "Normal": 0.0501
+      },
+      "atrophic_prob": 0.8956
+    },
+    {
+      "box": [
+        700,
+        155,
+        729,
+        186
+      ],
+      "det_conf": 0.29,
+      "det_class": "Boxcar",
+      "class": "Boxcar",
+      "class_ko": "박스카",
+      "prob": 0.61,
+      "probs": {
+        "Boxcar": 0.61,
+        "Ice pick": 0.3,
+        "Rolling": 0.0123,
+        "Hypertrophic/Keloid": 0.0562,
+        "Normal": 0.0215
+      },
+      "atrophic_prob": 0.9223
+    },
+    {
+      "box": [
+        642,
+        348,
+        678,
+        385
+      ],
+      "det_conf": 0.5731,
+      "det_class": "Rolling",
+      "class": "Rolling",
+      "class_ko": "롤링",
+      "prob": 0.73,
+      "probs": {
+        "Boxcar": 0.15,
+        "Ice pick": 0.04,
+        "Rolling": 0.73,
+        "Hypertrophic/Keloid": 0.0453,
+        "Normal": 0.0347
+      },
+      "atrophic_prob": 0.92
+    },
+    {
+      "box": [
+        552,
+        485,
+        588,
+        518
+      ],
+      "det_conf": 0.3009,
+      "det_class": "Rolling",
+      "class": "Rolling",
+      "class_ko": "롤링",
+      "prob": 0.64,
+      "probs": {
+        "Boxcar": 0.22,
+        "Ice pick": 0.0435,
+        "Rolling": 0.64,
+        "Hypertrophic/Keloid": 0.035,
+        "Normal": 0.0615
+      },
+      "atrophic_prob": 0.9035
+    }
+  ],
+  "summary": {
+    "n_lesions": 11,
+    "counts": {
+      "Ice pick": 6,
+      "Boxcar": 3,
+      "Rolling": 2
+    },
+    "n_atrophic": 11,
+    "mean_atrophic_prob": 0.9347
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "updated": "2026-11-28",
+  "entries": [
+    {
+      "region": "천안",
+      "clinic": "예시피부과A",
+      "treatment_raw": "TCA 크로스",
+      "treatment": "tca_cross",
+      "price": 100000,
+      "price_unit": "1회",
+      "is_promotion": false,
+      "collected_month": "2026-11",
+      "source": "captures/mock/예시피부과A.png"
+    },
+    {
+      "region": "천안",
+      "clinic": "예시피부과B",
+      "treatment_raw": "TCA CROSS",
+      "treatment": "tca_cross",
+      "price": 120000,
+      "price_unit": "1회",
+      "is_promotion": false,
+      "collected_month": "2026-11",
+      "source": "captures/mock/예시피부과B.png"
+    },
+    {
+      "region": "천안",
+      "clinic": "예시피부과C",
+      "treatment_raw": "티씨에이 크로스",
+      "treatment": "tca_cross",
+      "price": 90000,
+      "price_unit": "1회",
+      "is_promotion": false,
+      "collected_month": "2026-11",
+      "source": "captures/mock/예시피부과C.png"
+    },
+    {
+      "region": "천안",
+      "clinic": "예시피부과D",
+      "treatment_raw": "TCA 크로스",
+      "treatment": "tca_cross",
+      "price": 150000,
+      "price_unit": "1회",
+      "is_promotion": false,
+      "collected_month": "2026-11",
+      "source": "captures/mock/예시피부과D.png"
+    },
+    {
+      "region": "천안",
+      "clinic": "예시피부과B",
+      "treatment_raw": "TCA CROSS 11월 이벤트",
+      "treatment": "tca_cross",
+      "price": 69000,
+      "price_unit": "1회",
+      "is_promotion": true,
+      "collected_month": "2026-11",
+      "source": "captures/mock/예시피부과B.png"
+    },
+    {
+      "region": "천안",
+      "clinic": "예시피부과A",
+      "treatment_raw": "프랙셔널 CO2",
+      "treatment": "laser_resurfacing",
+      "price": 200000,
+      "price_unit": "1회",
+      "is_promotion": false,
+      "collected_month": "2026-11",
+      "source": "captures/mock/예시피부과A.png"
+    },
+    {
+      "region": "천안",
+      "clinic": "예시피부과C",
+      "treatment_raw": "CO2 레이저",
+      "treatment": "laser_resurfacing",
+      "price": 250000,
+      "price_unit": "1회",
+      "is_promotion": false,
+      "collected_month": "2026-11",
+      "source": "captures/mock/예시피부과C.png"
+    },
+    {
+      "region": "천안",
+      "clinic": "예시피부과D",
+      "treatment_raw": "리서페이싱",
+      "treatment": "laser_resurfacing",
+      "price": 180000,
+      "price_unit": "1회",
+      "is_promotion": false,
+      "collected_month": "2026-11",
+      "source": "captures/mock/예시피부과D.png"
+    },
+    {
+      "region": "천안",
+      "clinic": "예시피부과A",
+      "treatment_raw": "서브시젼",
+      "treatment": "subcision",
+      "price": 150000,
+      "price_unit": "1회",
+      "is_promotion": false,
+      "collected_month": "2026-11",
+      "source": "captures/mock/예시피부과A.png"
+    },
+    {
+      "region": "천안",
+      "clinic": "예시피부과B",
+      "treatment_raw": "서브시전",
+      "treatment": "subcision",
+      "price": 200000,
+      "price_unit": "1회",
+      "is_promotion": false,
+      "collected_month": "2026-11",
+      "source": "captures/mock/예시피부과B.png"
+    },
+    {
+      "region": "천안",
+      "clinic": "예시피부과C",
+      "treatment_raw": "펀치",
+      "treatment": "punch_excision",
+      "price": 50000,
+      "price_unit": "1회",
+      "is_promotion": false,
+      "collected_month": "2026-11",
+      "source": "captures/mock/예시피부과C.png"
+    },
+    {
+      "region": "천안",
+      "clinic": "예시피부과A",
+      "treatment_raw": "필러 3회 패키지",
+      "treatment": "filler",
+      "price": 900000,
+      "price_unit": "3회 패키지",
+      "is_promotion": false,
+      "collected_month": "2026-11",
+      "source": "captures/mock/예시피부과A.png"
+    },
+    {
+      "region": "아산",
+      "clinic": "예시피부과E",
+      "treatment_raw": "서브시젼",
+      "treatment": "subcision",
+      "price": 180000,
+      "price_unit": "1회",
+      "is_promotion": false,
+      "collected_month": "2026-11",
+      "source": "captures/mock/예시피부과E.png"
+    },
+    {
+      "region": "아산",
+      "clinic": "예시피부과E",
+      "treatment_raw": "TCA 크로스",
+      "treatment": "tca_cross",
+      "price": 110000,
+      "price_unit": "1회",
+      "is_promotion": false,
+      "collected_month": "2026-11",
+      "source": "captures/mock/예시피부과E.png"
+    }
+  ]
+}

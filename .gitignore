@@ -10,3 +10,7 @@ outputs/
 *.jpg
 *.jpeg
 *.png
+# 웹 앱의 아이콘·화면 이미지는 올린다 (위 규칙은 얼굴 사진용)
+!web/**/*.jpg
+!web/**/*.jpeg
+!web/**/*.png

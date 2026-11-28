@@ -1,0 +1,21 @@
+{
+  "status": "normal_only",
+  "params": {
+    "theta": 0.4,
+    "delta": 0.15
+  },
+  "region": "천안",
+  "type_stats": [
+    {
+      "type": "Normal",
+      "type_ko": "정상 피부",
+      "count": 2,
+      "mean_prob": 0.625,
+      "selected": false
+    }
+  ],
+  "groups": [],
+  "common": [],
+  "n_ambiguous_lesions": 0,
+  "disclaimer": "이 결과는 AI 모델의 참고용 분석이며 의료 진단이 아닙니다. 정확한 진단과 시술 결정은 피부과 전문의와 상담하세요."
+}
